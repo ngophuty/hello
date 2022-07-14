@@ -9,7 +9,7 @@ app.include_router(StudentRouter,tags=["Student"],prefix="/student")
 
 @app.get("/",tags=["Root"])
 async def read_root():
-    return {"message": "Wellcome"}
+    return {"message": "Hello world !"}
 
 
 # @app.get("/student/",tags=["Student"])
